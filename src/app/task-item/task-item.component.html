@@ -1,5 +1,6 @@
 <div *ngIf=true>
   <h3> {{taskitem.text}} </h3>
   <h4> {{taskitem.day}}, <i> {{ taskitem.reminder }}</i> </h4>
+  <button (click)="ondelete(taskitem)"> Delete </button>
   </div>
 
